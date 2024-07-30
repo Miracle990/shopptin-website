@@ -1,0 +1,223 @@
+@media(max-width:450px){
+
+    
+    
+    header{
+        padding: 10px;
+    }
+
+    header span{
+        font-size: 10px;
+        padding-left: 8px;
+    }
+    
+    header nav{
+        width: 40%;
+        display: flex;
+        justify-content: flex-end;
+        
+        gap: 9px;
+    
+    }
+    
+    
+    header nav a{
+        font-size: 9px;
+    }
+
+
+    header a{
+        font-size: 10px;
+    }
+    
+    
+   
+    
+    .left-article{
+        width: 20%;
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:flex-end;
+        gap:5px;
+    }
+    
+    .left-article h1{
+        font-size: 15px;
+       
+        width: 100%;
+    }
+    
+    .left-article a{
+       
+        font-size: 9px;
+        padding: 10px 15px;
+        width: 100%;
+        text-align: center;
+      
+    }
+   
+    
+    .right-article{
+        width: 65%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-end;
+        gap:50px;
+        padding: 30px 0;
+    }
+    
+   
+    
+    .right-article span{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        gap:10px;
+        margin-top: 30px;
+    }
+    
+    .right-article span img{
+        height: 50px;
+        
+    }
+    
+    
+    
+    
+    #products{
+        width: 80%;
+        gap:30px;
+       
+        
+    }
+    
+    #products h2{
+        font-size: 20px;
+        font-weight: 100;
+      
+    }
+    
+    #products article{
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap:40px;
+    }
+    
+    #products article div{
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:20px;
+    }
+    
+    #products article div small{
+        width: 100px;
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:10px;
+        border: 1px solid darkblue;
+    }
+    
+    #products article div small img{
+        height: 50%;
+       
+    }
+ 
+    
+    #order h2{
+       font-size:30px;
+       font-weight: 100;
+       text-transform: uppercase;
+    }
+    
+    #order article{
+      
+        padding: 5px;
+    }
+      
+        
+    
+  
+    
+   
+    
+    #contact{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap:80px;
+        padding: 100px 0;
+    }
+    
+    
+    #contact h2{
+        font-size: 30px;
+        text-transform: uppercase;
+        font-weight: 100;
+    }
+    
+    #contact article{
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 6px;
+    }
+    
+    #contact article .map-area{
+        width: 50%;
+        height: 200px;
+        background-image: url("./images/map.png");
+        opacity: 0.5;
+    
+    }
+    
+    #contact article .address-area{
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap:50px;
+    }
+    
+    #contact article .address-area p {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap:10px;
+    }
+    
+    #contact article .address-area p b{
+        font-size: 11px;
+        font-weight: 500;
+    }
+    
+    #contact article .address-area p small{
+        font-size: 12px;
+    }
+    
+    
+
+    
+    footer p{
+        font-size: 8px;
+    }
+
+}
+    
+   
